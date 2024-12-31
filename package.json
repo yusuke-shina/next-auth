@@ -19,7 +19,7 @@
     "dev:express": "turbo run dev --parallel --continue --filter=express-auth-app...",
     "dev:qwik": "turbo run dev --parallel --continue --filter=qwik-auth-app...",
     "dev:docs": "turbo run dev --filter=docs",
-    "dev:nuxt": "turbo run dev --parallel --continue --filter=nuxt-auth-app... --filter=@auth/core --filter=!./packages/adapter-*",
+    "dev:nuxt": "turbo run dev --parallel --continue --filter=nuxt-auth-app...",
     "email": "fake-smtp-server",
     "lint": "eslint --cache .",
     "format": "prettier --cache --check .",
